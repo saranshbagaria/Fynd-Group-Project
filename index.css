@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+.heading{
+    text-align: center;
+    text-decoration: underline wavy;
+}
+
+.container1{
+    height: 250px;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    border: 1px groove violet;
+    border-radius: 25px;
+    background-image: url(https://im.whatshot.in/img/2019/Feb/gateway-of-india-4b-cropped-1549871701.jpg);
+    background-size: 100% 100%;
+}
+/* img{
+    height: 100%;
+    width: 100%;
+} */
+.city{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s;
+    background: grey;
+    border-radius: 25px;
+
+}
+.info{
+    text-align: center;
+    color: white;
+
+}
+.container1:hover .city{
+    opacity: 0.8;
+}
+
+
+.container2{
+    height: 250px;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px groove violet;
+    border-radius: 25px;
+    background-image: url(https://www.weekendthrill.com/wp-content/uploads/2016/07/Bandhavgarh-fort.jpg);
+    background-size: 100% 100%;
+\
+}
+
+.container2:hover .city{
+    opacity: 0.8;
+
+}
+
+.container3{
+    height: 250px;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left:80%;
+    transform: translate(-50%,-50%);
+    background-image: url(http://3.bp.blogspot.com/-OBn5VcN56_g/VYffdny4CeI/AAAAAAAAACU/jE1nfnd2-fI/s1600/gorakhpur-junction2.jpg);
+    background-size: 100% 100%;
+    border: 1px groove violet;
+    border-radius: 25px;
+
+}
+.container3:hover .city{
+    opacity: 0.8;
+}

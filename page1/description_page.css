@@ -1,0 +1,49 @@
+ .contain {
+    height: 350px;
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+    width: 100%;
+}
+.heading {
+    height: 100%;
+    width : 100%;
+    background-image :  linear-gradient(to right, rgba(111, 110, 110, 0.89),rgba(111, 110, 110, 0.69),rgba(111, 110, 110, 0.28),rgba(111, 110, 110, 0));
+    color : white;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 15px;
+}
+.img1{
+    background-image: url("src/img_2.png");
+}
+.img2{
+    background-image: url("src/img_1.png");
+}
+.img3{
+    background-image: url("src/img_4.png");
+}
+.img4{
+    background-image: url("src/img_5.png");
+}
+
+.number {
+    color: aquamarine;
+}
+.city {
+    color : darkcyan;
+}
+.description {
+    background-color: black;
+    color : white;
+    padding: 10px;
+    font-family: "Arial";
+    text-align: justify;
+}
+.head {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 15px;
+}
